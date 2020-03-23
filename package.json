@@ -5,18 +5,15 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "npm run start"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sarahsalvini/Burger.git"
+    "url": ""
   },
-  "author": "Sarah Salvini",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sarahsalvini/Burger/issues"
-  },
-  "homepage": "https://github.com/sarahsalvini/Burger#readme",
+  
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
