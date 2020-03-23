@@ -1,0 +1,55 @@
+h1,h2{
+    
+    font-family: sans-serif;
+    color: dodgerblue;
+    padding-bottom: inherit;
+}
+
+.row{
+  margin-top: 20px;
+  padding-bottom: inherit;
+}
+.list {
+  color: slategray;
+  font-size: 0.8em;
+  padding: 0 !important;
+  width: 100%;
+  font-family: sans-serif;
+  font-weight: 900;
+  border: 1px solid #dedede;
+  background-color: white;
+}
+.list li {
+  list-style: none;
+  border-bottom: 1px dotted red;
+  text-indent: 25px;
+  height: auto;
+  padding: 8px;
+  text-transform: capitalize;
+}
+.list li:hover {
+  background-color: lightskyblue;
+  -webkit-transition: all 0.2s;
+  -moz-transition:    all 0.2s;
+  -ms-transition:     all 0.2s;
+  -o-transition:      all 0.2s;
+}
+.add-burger{
+  margin-top: 0.8rem;
+}
+form{
+  font-family: sans-serif;
+  color: slategray;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 912px){
+  button{
+    font-size: 0.3em;
+  }
+}
+
+@media only screen and (max-width: 451px){
+   button{
+    font-size: 0.3em;
+  }
+}

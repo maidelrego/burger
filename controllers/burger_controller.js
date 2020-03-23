@@ -3,11 +3,7 @@ const router = express.Router();
 const burger = require("../models/burger.js");
 
 
-
-
-// CREATE ALL OUR ROUTES AND SETUP LOGIC WITHIN THOSE ROUTES
 router.get("/",(request,response)=>{
-    // SELECT ALL RECORDS FROM BURGERS TABLE TO USE FOR HANDLEBARS OBJECT
     burger.selectAll((data)=>{
         var handlebarsObject = {
             burgers: data
@@ -48,5 +44,4 @@ router.put("/api/burgers/:id",(request,response)=>{
     });
 });
 
-// EXPORT ROUTES FOR 'server.js'
 module.exports = router;

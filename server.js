@@ -16,11 +16,11 @@ app.use(express.json());
 
 // SET HANDLEBARS
 app.engine('handlebars',handlebars({
-    defaultLayout: 'index'
+    defaultLayout: 'main'
 }));
 app.set('view engine','handlebars');
 
-const routes = require('./controllers/burgers_controller.js')
+const routes = require('./controllers/burger_controller.js')
 // GIVE THE SERVER ACCESS TO ROUTES
 app.use(routes);
 
